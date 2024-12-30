@@ -1,0 +1,22 @@
+
+.device {
+  position: relative;
+  background-size: cover;
+}
+
+.device .app-screenshot {
+  position: absolute;
+  width: 240px;
+  height: auto;
+}
+
+.device.iphone-15-black {
+  width: 300px;
+  height: 608px;
+  background-image: url('/assets/images/iphone-15-black-port.png');
+}
+.device.iphone-15-black .app-screenshot {
+  top: 91px;
+  left: 25px;
+  width: 240px;
+}
